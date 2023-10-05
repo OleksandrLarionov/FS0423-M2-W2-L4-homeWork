@@ -29,8 +29,14 @@ body {
 .container-box {
 	p {
 		margin-bottom: 5px;
+		margin-left: 15px;
 		&:first-child {
+			margin-top: 5px;
 			font-weight: bold;
+			text-align: left;
+		}
+		&:last-child {
+			// margin-left: 40px;
 		}
 	}
 }
