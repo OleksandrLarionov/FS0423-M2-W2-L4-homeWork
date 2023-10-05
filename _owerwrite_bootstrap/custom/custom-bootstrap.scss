@@ -4,10 +4,12 @@
 
 $new-primary: #1acb98;
 $new-info: #bca8ff;
+$gold: #ffa843;
 
 $new-theme-colors: (
 	"primary": $new-primary,
 	"info": $new-info,
+	"danger": $gold,
 );
 
 $theme-colors: map-merge($theme-colors, $new-theme-colors);

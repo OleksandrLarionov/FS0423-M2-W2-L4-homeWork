@@ -35,9 +35,6 @@ body {
 			font-weight: bold;
 			text-align: left;
 		}
-		&:last-child {
-			// margin-left: 40px;
-		}
 	}
 }
 .bell {
@@ -48,4 +45,18 @@ body {
 	border-radius: 100%;
 	width: 60px;
 	height: 60px;
+}
+
+.personal-card {
+	li {
+		span {
+			color: gray;
+
+			&:nth-child(1) {
+				font-size: small;
+				opacity: 0.3;
+				text-decoration: line-through;
+			}
+		}
+	}
 }
