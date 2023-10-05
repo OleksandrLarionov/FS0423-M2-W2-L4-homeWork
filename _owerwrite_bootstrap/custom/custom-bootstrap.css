@@ -30,6 +30,16 @@ body {
   font-weight: bold;
 }
 
+.bell {
+  background-color: #f5f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
